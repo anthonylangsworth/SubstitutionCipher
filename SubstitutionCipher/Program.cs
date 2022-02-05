@@ -182,7 +182,7 @@ WE MEST RENEGETEERE EER EGREEMENT THE CERRENT
 SETEETEEN ES NET SESTEENEBLE
 
 Translation:
-Colonel BRECK (?) requesting to Senator Nerva. We've
+Colonel BRECK (?) reporting to Senator Nerva. We've
 had to disband the remaining training camps. My
 soldiers caught and executed several ACT agents
 among the latest intake. If you want us to
