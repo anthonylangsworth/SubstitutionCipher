@@ -84,7 +84,6 @@ V45MT 2ZJ4F2 L2 J2GF4K1MMY T4 F4L2DQ3KR";
 
 Dictionary<char, string> cipher3 = new()
 {
-    // Cipher key 2 from Imperial Beacon
     { '1', "?" },
     { '2', "E" }, // or I or O
     { '3', "?" },
@@ -106,7 +105,7 @@ Dictionary<char, string> cipher3 = new()
     { 'N', "L" },
     { 'P', "M" }, // Given
     { 'Q', "N" },
-    { 'R', "QU" }, // Given
+    { 'R', "QU" }, // Given. Possibly incorrect, should be "P"
     { 'S', "R" }, // Given
     { 'T', "R" },
     { 'U', "?" },
@@ -116,7 +115,6 @@ Dictionary<char, string> cipher3 = new()
     { 'Y', "W" },
     { 'Z', "X" }, // Given
 };
-
 string maidjinMessage =
 @"F2N2Q2N DT2FM T2R2TW2QJ W2 V2Q2W2T Q2TX2 Y2X2
 K2G W2 G2VD2QG WK2 T2P22Q2QJ WT22Q2QJ F2PRV PB
@@ -126,6 +124,50 @@ F2QW2Q22 Y2TM2QJ H2T WK2 N2TGQ 2H T2VW2T2W22Q
 Y2 P2VW T2Q2J2W22T2 22T 2JT22P2QW WK2 F2TT2QW
 V2W22W22Q 2V Q2W V2VW22Q2DN2";
 
+
+Dictionary<char, string> cipher4 = new()
+{
+    { '1', "1" },
+    { '2', "?" },
+    { '3', "?" },
+    { '4', "A" }, // or E or U
+    { '5', "?" },
+    { 'A', "?" },
+    { 'B', "K" }, //?
+    { 'C', "J" },
+    { 'D', "H" }, //?
+    { 'E', "?" },
+    { 'F', "G" },
+    { 'G', "F" },
+    { 'H', "D" },
+    { 'I', "?" },
+    { 'J', "C" },//?
+    { 'K', "B" },
+    { 'L', "?" },
+    { 'M', "Y" },
+    { 'N', "X" },
+    { 'P', "W" },
+    { 'Q', "V" },
+    { 'R', "T" },
+    { 'S', "S" },
+    { 'T', "R" }, //?
+    { 'U', "?" },
+    { 'V', "QU" }, //?
+    { 'W', "P" }, //?
+    { 'X', "N" }, //?
+    { 'Y', "M" }, //?
+    { 'Z', "L" }, //?
+};
+string zhaoJinMessage =
+@"R4S 4S R4TV4R4S J4Z4X4Z KT4JB 44T 4F4XRS Y4R4X
+4YW4T44Z 4XR4ZZ4F4XJ4 D4Q4 P4TX4H 4S R4R 4JR 4S
+Y4B4XF WT4FT4SS 4X 4JJ4SS4XF 44T X4RP4TB M44 4T4
+4TH4T4H R4 RT4XSG4T JTM4F4X4J W4H e-16 GT4Y R4
+S4YY4TZ4XH J4YWZ4N R4 4X 4ZR4TX4R4 SMSR4Y 4S S44X
+4S W4SS4KZ4 R4S Y4SR B4 44T R4W WT44T4RM 4G P4
+Z4S4 4T4SS4 R4 WT4C4JR 4S G4X4S4H";
+
+
 //Decode(hip290Message, cipher1);
 //Console.WriteLine();
 //DumpCipher(cipher1);
@@ -134,7 +176,7 @@ V2W22W22Q 2V Q2W V2VW22Q2DN2";
 //Console.WriteLine();
 //DumpCipher(cipher2);
 //Console.ReadLine();
-Decode(maidjinMessage, cipher3);
+Decode(zhaoJinMessage, cipher4);
 Console.WriteLine();
 //DumpCipher(cipher1);
 //Console.WriteLine();
