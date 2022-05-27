@@ -168,6 +168,50 @@ S4YY4TZ4XH J4YWZ4N R4 4X 4ZR4TX4R4 SMSR4Y 4S S44X
 Z4S4 4T4SS4 R4 WT4C4JR 4S G4X4S4H";
 
 
+// https://twitter.com/EliteDangerous/status/1529839833530638338
+Dictionary<char, string> azimuthCipher = new()
+{
+    { '1', "?" },
+    { '2', "?" },
+    { '3', "?" },
+    { '4', "?" }, 
+    { '5', "?" },
+    { 'A', "S" },
+    { 'B', "T" }, 
+    { 'C', "U" },
+    { 'D', "V" }, 
+    { 'E', "W" },
+    { 'F', "?" },
+    { 'G', "Y" },
+    { 'H', "?" },
+    { 'I', "A" },
+    { 'J', "?" },
+    { 'K', "?" },
+    { 'L', "?" },
+    { 'M', "E" },
+    { 'N', "?" },
+    { 'P', "H" },
+    { 'Q', "I" },
+    { 'R', "T" },
+    { 'S', "S" },
+    { 'T', "L" }, 
+    { 'U', "M" },
+    { 'V', "N" }, 
+    { 'W', "O" }, 
+    { 'X', "N" }, 
+    { 'Y', "?" }, 
+    { 'Z', "R" }, 
+};
+// See https://morsedecoder.com/
+// --.-  / .. ..- / -... .--. -- / -... --.. -.-. -...
+// .. -- --- --.- .- / . --.- - - / ...- .-- -... / .- .. -.. -- / --. .-- -.-.
+// -... --.. -.-. .- -... / --.- .-- / --. .-- -.-. --.. / .- .. - -.. .. -... --.- .-- ...-
+string azimuthMessage =
+@"Q IU BPM BZCB
+IMOQA EQTT VWB AIDM GWC
+BZCAB QW GWCZ AITDIBQWV";
+
+
 //Decode(hip290Message, cipher1);
 //Console.WriteLine();
 //DumpCipher(cipher1);
@@ -176,7 +220,8 @@ Z4S4 4T4SS4 R4 WT4C4JR 4S G4X4S4H";
 //Console.WriteLine();
 //DumpCipher(cipher2);
 //Console.ReadLine();
-Decode(zhaoJinMessage, cipher4);
+// Decode(zhaoJinMessage, cipher4);
+Decode(azimuthMessage, azimuthCipher);
 Console.WriteLine();
 //DumpCipher(cipher1);
 //Console.WriteLine();
