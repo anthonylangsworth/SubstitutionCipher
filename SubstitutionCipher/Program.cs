@@ -1,4 +1,6 @@
-﻿Dictionary<char, string> cipher1 = new()
+﻿using System.Text;
+
+Dictionary<char, string> cipher1 = new()
 {
     { 'A', "V" },
     { 'B', "U" },
@@ -212,6 +214,63 @@ IMOQA EQTT VWB AIDM GWC
 BZCAB QW GWCZ AITDIBQWV";
 
 
+// https://twitter.com/EliteDangerous/status/1529839833530638338
+Dictionary<char, char> harksingLetter1Of6Cipher = new()
+{
+    { '1', '?' },
+    { '2', '?' },
+    { '3', '?' },
+    { '4', '?' },
+    { '5', '?' },
+    { 'A', 'Z' }, { 'a', 'z' },
+    { 'B', 'A' }, { 'b', 'a' }, //
+    { 'C', 'B' }, { 'c', 'b' }, //
+    { 'D', 'C' }, { 'd', 'c' }, //
+    { 'E', 'D' }, { 'e', 'd' }, //
+    { 'F', 'E' }, { 'f', 'e' }, //
+    { 'G', 'F' }, { 'g', 'f' }, //
+    { 'H', 'g' }, { 'h', 'g' }, //
+    { 'I', 'H' }, { 'i', 'h' }, //
+    { 'J', 'I' }, { 'j', 'i' }, //
+    { 'K', 'J' }, { 'k', 'j' }, //
+    { 'L', 'K' }, { 'l', 'k' }, //
+    { 'M', 'L' }, { 'm', 'l' }, //
+    { 'N', 'M' }, { 'n', 'm' }, //
+    { 'O', 'N' }, { 'o', 'n' }, //
+    { 'P', 'O' }, { 'p', 'o' }, //
+    { 'Q', 'P' }, { 'q', 'p' }, //
+    { 'R', 'Q' }, { 'r', 'q' }, //
+    { 'S', 'R' }, { 's', 'r' }, //
+    { 'T', 's' }, { 't', 's' }, //
+    { 'U', 'T' }, { 'u', 't' }, //
+    { 'V', 'U' }, { 'v', 'u' }, //
+    { 'W', 'V' }, { 'w', 'v' }, //
+    { 'X', 'W' }, { 'x', 'w' }, //
+    { 'Y', 'X' }, { 'y', 'x' }, //
+    { 'Z', 'Y' }, { 'z', 'y' }, //
+};
+// See https://morsedecoder.com/
+// --.-  / .. ..- / -... .--. -- / -... --.. -.-. -...
+// .. -- --- --.- .- / . --.- - - / ...- .-- -... / .- .. -.. -- / --. .-- -.-.
+// -... --.. -.-. .- -... / --.- .-- / --. .-- -.-. --.. / .- .. - -.. .. -... --.- .-- ...-
+string harksingLetter1Of6 =
+@"Up Kbtnjob Lbmtfz,
+
+Nz benjsbujpo pg zpvs dbsffs lopxt op mjnjut. Bt b gpsnfs
+Qsftjefou pg uif Gfefsbujpo, ju jt tbgf up tbz zpv bsf pof pg
+uif nptu sfnbslbcmf joejwjevbmt pg zpvs hfofsbujpo. Fwfo
+uipvhi zpvs ufnqpsbsz njtqmbdfnfou bcpbse Tubstijq Pof
+xbt op epvcu ejtpsjfoujoh, zpv ibwf sfuvsofe up tfswjdf bt
+b Gfefsbm bncbttbeps gps qfbdf boe hppexjmm.
+
+J pggfs zpv b uplfo pg uif tbnf hppexjmm, xjui uif vunptu
+ivnjmjuz. Nbz ju csjhiufo vq zpvs pggjdf bu Cmpdi
+Tubujpo.
+
+Zpvst jo sftqfdu,
+Ibsbme Ibsltjoh";
+
+
 //Decode(hip290Message, cipher1);
 //Console.WriteLine();
 //DumpCipher(cipher1);
@@ -221,12 +280,13 @@ BZCAB QW GWCZ AITDIBQWV";
 //DumpCipher(cipher2);
 //Console.ReadLine();
 // Decode(zhaoJinMessage, cipher4);
-Decode(azimuthMessage, azimuthCipher);
+Decode(harksingLetter1Of6, harksingLetter1Of6Cipher);
 Console.WriteLine();
+Console.ReadLine();
 //DumpCipher(cipher1);
 //Console.WriteLine();
 
-void Decode(string message, Dictionary<char, string> cipher)
+void Decode(string message, Dictionary<char, char> cipher)
 {
     foreach (char c in message)
     {
