@@ -254,7 +254,7 @@ Dictionary<char, char> harksingLetter1Of6Cipher = new()
 // .. -- --- --.- .- / . --.- - - / ...- .-- -... / .- .. -.. -- / --. .-- -.-.
 // -... --.. -.-. .- -... / --.- .-- / --. .-- -.-. --.. / .- .. - -.. .. -... --.- .-- ...-
 string harksingLetter1Of6 =
-@"Up Kbtnjob Lbmtfz,
+@"Up Kbtnjob Ibmtfz,
 
 Nz benjsbujpo pg zpvs dbsffs lopxt op mjnjut. Bt b gpsnfs
 Qsftjefou pg uif Gfefsbujpo, ju jt tbgf up tbz zpv bsf pof pg
@@ -271,6 +271,50 @@ Zpvst jo sftqfdu,
 Ibsbme Ibsltjoh";
 
 
+Dictionary<char, char> harksingLetter2Of6Cipher = new()
+{
+    { 'A', 'Z' }, { 'a', 'z' },
+    { 'B', 'Y' }, { 'b', 'y' },
+    { 'C', 'X' }, { 'c', 'x' },
+    { 'D', 'W' }, { 'd', 'w' },
+    { 'E', 'V' }, { 'e', 'v' },
+    { 'F', 'U' }, { 'f', 'u' },
+    { 'G', 'T' }, { 'g', 't' }, //
+    { 'H', 'S' }, { 'h', 's' }, //
+    { 'I', 'R' }, { 'i', 'r' }, //
+    { 'J', 'Q' }, { 'j', 'q' }, //
+    { 'K', 'P' }, { 'k', 'p' }, //
+    { 'L', 'O' }, { 'l', 'o' }, //
+    { 'M', 'N' }, { 'm', 'n' }, //
+    { 'N', 'M' }, { 'n', 'm' }, //
+    { 'O', 'L' }, { 'o', 'l' }, //
+    { 'P', 'K' }, { 'p', 'k' }, //
+    { 'Q', 'J' }, { 'q', 'j' }, //
+    { 'R', 'I' }, { 'r', 'i' }, //
+    { 'S', 'H' }, { 's', 'h' }, //
+    { 'T', 'G' }, { 't', 'g' },
+    { 'U', 'F' }, { 'u', 'f' }, 
+    { 'V', 'E' }, { 'v', 'e' }, //
+    { 'W', 'D' }, { 'w', 'd' }, 
+    { 'X', 'C' }, { 'x', 'c' }, 
+    { 'Y', 'B' }, { 'y', 'b' }, 
+    { 'Z', 'A' }, { 'z', 'a' }, //
+};
+string harksingLetter2of6 =
+@"Gl Svxgli Nliwzmgrxfh Wfezo,
+
+Blf ziv z xsrow lu xlmhrwvizyov hrtmrurxzmxv, drgs z
+klgvmgrzo ufgfiv lm gsv Rnkvirzo Gsilmv. Gzpv zwezmgztv
+lu gsvhv vziob bvzih lm Wbhlm Xrgb, vmqlbrmt vevib
+nlnvmg lu z xzivuivv blfgs dsrov blf xzm.
+
+Rm gsrh hkrirg, R slkv nb orggov trug droo kilerwv slfih lu
+qlb!
+
+Blfih rm prmwmvhh,
+Szizow Sziphrmt";
+
+
 //Decode(hip290Message, cipher1);
 //Console.WriteLine();
 //DumpCipher(cipher1);
@@ -280,7 +324,7 @@ Ibsbme Ibsltjoh";
 //DumpCipher(cipher2);
 //Console.ReadLine();
 // Decode(zhaoJinMessage, cipher4);
-Decode(harksingLetter1Of6, harksingLetter1Of6Cipher);
+Decode(harksingLetter2of6, harksingLetter2Of6Cipher);
 Console.WriteLine();
 Console.ReadLine();
 //DumpCipher(cipher1);
