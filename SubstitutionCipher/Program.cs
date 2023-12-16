@@ -357,6 +357,141 @@ Lbhef va gevhzcu,
 Unenyq Unexfvat";
 
 
+
+Dictionary<char, char> harksingLetter4Of6Cipher = new()
+{
+    { 'A', 'X' }, { 'a', 'x' },
+    { 'B', 'Y' }, { 'b', 'y' },
+    { 'C', 'Z' }, { 'c', 'z' },
+    { 'D', 'A' }, { 'd', 'a' },
+    { 'E', 'B' }, { 'e', 'b' },
+    { 'F', 'C' }, { 'f', 'c' },
+    { 'G', 'D' }, { 'g', 'd' },
+    { 'H', 'E' }, { 'h', 'e' },
+    { 'I', 'F' }, { 'i', 'f' },
+    { 'J', 'G' }, { 'j', 'g' },
+    { 'K', 'H' }, { 'k', 'h' },
+    { 'L', 'I' }, { 'l', 'i' },
+    { 'M', 'J' }, { 'm', 'j' },
+    { 'N', 'K' }, { 'n', 'k' },
+    { 'O', 'L' }, { 'o', 'l' },
+    { 'P', 'M' }, { 'p', 'm' },
+    { 'Q', 'N' }, { 'q', 'n' },
+    { 'R', 'O' }, { 'r', 'o' },
+    { 'S', 'P' }, { 's', 'p' },
+    { 'T', 'Q' }, { 't', 'q' },
+    { 'U', 'R' }, { 'u', 'r' },
+    { 'V', 'S' }, { 'v', 's' },
+    { 'W', 'T' }, { 'w', 't' },
+    { 'X', 'U' }, { 'x', 'u' },
+    { 'Y', 'V' }, { 'y', 'v' },
+    { 'Z', 'W' }, { 'z', 'w' },
+};
+string harksingLetter4Of6 =
+@"Wr Rody Uhgfrxuw,
+
+L krsh brx'oo irujlyh wkh lqwuxvlrq, jlyhq brxu suhihuhqfh
+iru vrolwxgh lq uhfhqw bhduv. Exw dv d kxjh idq ri wkh
+Fruvdlu Nlqj vhulhv, L frxogq'w uhvlvw fuhdwlqj d vpdoo
+uhsuhvhqwdwlrq ri pb orbdo vxssruw.
+
+Qr grxew brxu qhaw errn zloo eh d pduyho, vlu. Idqv 
+dfurvv wkh jdodab kdyh idlwk wkdw brx'yh pdgh 'ydq gh
+Kxovw'v' surjuhvv!
+
+Brxuv lq dgrudwlrq,
+Kdudog Kdunvlqj";
+
+
+Dictionary<char, char> harksingLetter5Of6Cipher = new()
+{
+    { 'A', 'Y' }, { 'a', 'y' },
+    { 'B', 'Y' }, { 'b', 'y' },
+    { 'C', 'X' }, { 'c', 'x' },
+    { 'D', 'W' }, { 'd', 'w' },
+    { 'E', 'V' }, { 'e', 'v' },
+    { 'F', 'U' }, { 'f', 'u' },
+    { 'G', 'T' }, { 'g', 't' },
+    { 'H', 'S' }, { 'h', 's' },
+    { 'I', 'R' }, { 'i', 'r' },
+    { 'J', 'Q' }, { 'j', 'q' },
+    { 'K', 'P' }, { 'k', 'p' },
+    { 'L', 'O' }, { 'l', 'o' },
+    { 'M', 'M' }, { 'm', 'm' },
+    { 'N', 'N' }, { 'n', 'n' },
+    { 'O', 'L' }, { 'o', 'l' },
+    { 'P', 'K' }, { 'p', 'k' },
+    { 'Q', 'J' }, { 'q', 'j' }, //
+    { 'R', 'I' }, { 'r', 'i' },
+    { 'S', 'H' }, { 's', 'h' },
+    { 'T', 'G' }, { 't', 'g' },
+    { 'U', 'F' }, { 'u', 'f' },
+    { 'V', 'E' }, { 'v', 'e' },
+    { 'W', 'D' }, { 'w', 'd' },
+    { 'X', 'C' }, { 'x', 'c' },
+    { 'Y', 'A' }, { 'y', 'a' },
+    { 'Z', 'B' }, { 'z', 'b' },
+};
+string harksingLetter5Of6 =
+@"Gl Vorqys Zvxp,
+
+Rg'h lnv gsrnt gl ivevyo gsv dilntwlrnt lu y mvtyolmynryx,
+yh alf lnxv wrw. Rg'h ynlgsvi gl wvwrxygv alfi xyivvi gl
+xlmkovgv gsv rmkligyng dlip gsyg kvihln yzynwlnvw. Alfi
+wvkyigmvng yg Tvlitv Ofxyh rh wlrnt tivyg gsrnth.
+
+Dliwh yiv mliv rmkligyng gsyg dvyklnh. Mfxs mliv
+ykkilkirygv uli slorwya tymvh, yh dvoo.
+
+Alfih rn hlorwyirga,
+Syiyow Syiphrnt";
+
+
+Dictionary<char, char> harksingLetter6Of6Cipher = new()
+{
+    { 'A', 'Y' }, { 'a', 'y' },
+    { 'B', 'Y' }, { 'b', 'y' },
+    { 'C', 'X' }, { 'c', 'x' },
+    { 'D', 'W' }, { 'd', 'w' },
+    { 'E', 'V' }, { 'e', 'v' },
+    { 'F', 'U' }, { 'f', 'u' },
+    { 'G', 'T' }, { 'g', 't' },
+    { 'H', 'S' }, { 'h', 's' },
+    { 'I', 'R' }, { 'i', 'r' },
+    { 'J', 'Q' }, { 'j', 'q' },
+    { 'K', 'P' }, { 'k', 'p' },
+    { 'L', 'O' }, { 'l', 'o' },
+    { 'M', 'N' }, { 'm', 'n' },
+    { 'N', 'M' }, { 'n', 'm' },
+    { 'O', 'L' }, { 'o', 'l' },
+    { 'P', 'K' }, { 'p', 'k' },
+    { 'Q', 'J' }, { 'q', 'j' }, //
+    { 'R', 'I' }, { 'r', 'i' },
+    { 'S', 'H' }, { 's', 'h' },
+    { 'T', 'G' }, { 't', 'g' },
+    { 'U', 'F' }, { 'u', 'f' },
+    { 'V', 'E' }, { 'v', 'e' },
+    { 'W', 'D' }, { 'w', 'd' },
+    { 'X', 'C' }, { 'x', 'c' },
+    { 'Y', 'B' }, { 'y', 'b' },
+    { 'Z', 'A' }, { 'z', 'a' },
+};
+string harksingLetter6Of6 =
+@"Gl Yibzmmz Yozmxl,
+
+Gsv rmgivkrw rmevhgrtzgli! Xirxp Xrgb'h qlfimzorhg uli
+qfhgrxv! Gl hl ivovmgovhhob slfmw lmv lu gsv irxsvhg
+urtfivh rm srhglib rh zm zxg lu uvziovhhmvhh. Dszg trug
+xlfow klhhryob vmxzkhfozgv hfxs wvgvinrmzgrlm, hfxs
+ulxfh!
+
+R kivhvmg gsv zmhdvi gszg gszg jfvhgrlm - drgs z krmxs 
+lu kzmzxsv, lu xlfihv.
+
+Blfih rm giryfgv,
+Szizow Sziphrmt";
+
+
 //Decode(hip290Message, cipher1);
 //Console.WriteLine();
 //DumpCipher(cipher1);
@@ -366,7 +501,7 @@ Unenyq Unexfvat";
 //DumpCipher(cipher2);
 //Console.ReadLine();
 // Decode(zhaoJinMessage, cipher4);
-Decode(harksingLetter3Of6, harksingLetter3Of6Cipher);
+Decode(harksingLetter6Of6, harksingLetter6Of6Cipher);
 Console.WriteLine();
 Console.ReadLine();
 //DumpCipher(cipher1);
@@ -384,9 +519,25 @@ void DumpCipher(Dictionary<char, string> cipher)
 {
     foreach(char c in cipher.Keys.OrderBy(c => c))
     {
-        Console.WriteLine($"{c} => {cipher[c]}");
+        Console.WriteLine($"{c} => { cipher[c]}");
     }
 }
+
+
+/*
+ * 
+ * Process:
+ * Search for station in EDSM.
+ * 
+ * Locations for 2023 Christmas:
+ *
+ * 1. Bloch Station in Ethgreze for Santa Jumper Green and Red Snowfall Paint Job (Jasmina Halsey, former fed president)
+ * 2. Dyson City in Paresa for Fireworks Flak and paint  jobs (Hector Duval, imperial ehir)
+ * 3. Enoch Port in Agartha for Bobble head and paint jobs (Saskia Landau, found emperor)
+ * 4. Van De Hulsts's Progress in Caspatsuria on planet 1 for Flak (Red) and paint job (Olav Redcourt, author)
+ * 5. George Lucas in Leesti for Decal and paint jobs (Elijah Beck, reveal wrongdoing of megalomaniac)
+ * 6. Crick City in 19 Phi-2 Ceti (Bryanna Blanco, journalist)
+ */
 
 /* Output:
  
